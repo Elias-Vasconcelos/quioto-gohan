@@ -13,6 +13,49 @@ header h3{
 .navbar{
     background: green;
 }
-.nav-link .active {
-    background-color: #581316;
+.carousel{
+    margin-top: 120px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 700px;
+}
+.carousel-item .carousel-caption{
+    bottom: 220px;
+}
+.carousel-item button{
+    width: 150px;
+}
+#about{
+    margin-top: 90px;
+    height: 130vh;
+}
+#about-img{
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+    height: 100%;
+}
+#about h3{
+    margin-top: 120px;
+}
+#about p{
+    width: 70%;
+    margin-left: 15%;
+}
+#restaurant{
+    background-color: #47FD59 ;
+    margin-top: 60px;
+    height: 300px;
+}
+#restaurant img{
+    width: 90%;
+    height: 250px;
+}
+#restaurant img:hover{
+    box-shadow: 0 3px 20px black;
+}
+#restaurant .row{
+    margin-left: 10%;
+    margin-right: 10%;
 }
