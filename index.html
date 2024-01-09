@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quioto-Gohan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kavivanar&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./lib/bootstrap.min.css">
 </head>
 <body>
-    <header>
+    <header>    
     <div class="navbar navbar-expand-lg fixed-top" >
         <div class="container">
             <h3 class="mt-2" >  <img src="./img/simbolo-da-bandeira-de-kyoto-japao.png" alt="simbolo-quioto"><span>Quioto</span>-Gohan.</h3>
@@ -38,7 +41,7 @@
     </div>
     </header>
     <section id="carrousel" >
-        <div  id="carousel" class="container carousel slide" data-bs-ride="carousel">
+        <div  id="carousel" class="container-fluid carousel slide">
             <div class="carousel-inner">
                 <div  data-bs-interval="3000"  class="carousel-item">
                     <img src="./img/Carousel/Desktop - 10.png" alt="">
@@ -72,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section id="about"> 
+    <section id="about" data-bs-smooth-scroll="true" > 
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 md-12 col-sm-12">
@@ -86,47 +89,47 @@
             </div>
             <div id="restaurant" class="container-fluid" >
                 <div class="row">
-                    <div class=" mt-3 col-md-4">
+                    <div class=" mt-3  col-sm-4 col-md-4">
                         <img src="./img/About/43f11c58-89c0-4ea3-901f-eda843d02c6d.jfif" alt="">
                     </div>
-                    <div class=" mt-3 col-md-4">
+                    <div class=" mt-3  col-sm-4 col-md-4">
                         <img src="./img/About/c97e1eb6-e44d-4d6e-9ee7-4bc5d81e2ac1.jfif" alt="">
                     </div>
-                    <div class=" mt-3 col-md-4">
+                    <div class=" mt-3  col-sm-4 col-md-4">
                         <img src="./img/About/f1b9dc72-de46-4cb3-972f-00072af474e6.jfif" alt="">
                     </div>
                 </div>
             </div>
     </section>
-    <section id="Events">
+    <section id="Events" data-bs-smooth-scroll="true" >
         <div class="container">
-            <div class="row">
-                <h2 class="text-center  mb-5 ">events</h2>
-                <div class="col-lg-3 col-md-3 col-sm-6">
-                    <img src="./img/Events/Rectangle 68.png" alt="">
+    <div class="row">
+                <h3 class="text-center mb-5 ">events</h3>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img  class="align" src="./img/Events/Rectangle 68.png" alt="">
                     <div class="caption">
-                        <h3 class="text-center" >tradicional food</h3>
+                        <h4 class=" mt-4 text-center" >tradicional food</h4>
                         <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <img src="./img/Events/Rectangle 69.png" alt="">
                     <div class="caption">
-                        <h3 class="text-center" >Yakiniku</h3>
+                        <h4 class=" mt-4 text-center" >Yakiniku</h4>
                         <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class=" ml-5 col-lg-3 col-md-6 col-sm-12">
                     <img src="./img/Events/Rectangle 70.png" alt="">
                     <div class="caption">
-                        <h3 class="text-center" >Teppanyaki japanese</h3>
+                        <h4 class=" mt-4 text-center" >Teppanyaki japanese</h4>
                         <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-12">
                     <img src="./img/Events/Rectangle 71.png" alt="">
                     <div class="caption">
-                        <h3 class="text-center" >space for events</h3>
+                        <h4 class=" mt-4 text-center" >space for events</h4>
                         <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
                     </div>
                 </div>
@@ -134,36 +137,36 @@
         </div>
         <div id="restaurant" class="container-fluid" >
             <div class="row">
-                <div class=" mt-3 col-md-4">
+                <div class=" mt-3  col-sm-4 col-md-4">
                     <img src="./img/Events/restaurant/image 10.png" alt="">
                 </div>
-                <div class=" mt-3 col-md-4">
+                <div class=" mt-3  col-sm-4 col-md-4">
                     <img src="./img/Events/restaurant/image 7.png" alt="">
                 </div>
-                <div class=" mt-3 col-md-4">
+                <div class=" mt-3  col-sm-4 col-md-4">
                     <img src="./img/Events/restaurant/image 9.png" alt="">
                 </div>
             </div>
         </div>
     </section>
-    <section id="menu">
+    <section id="menu" data-bs-smooth-scroll="true" >
         <div class="container">
             <div class=" centro row">
-                <h2 class="text-center  mb-5 ">Menu</h2>
+                <h3 class="text-center text-light mt-5 mb-5 ">Menu</h3>
                 <div class=" Menu col-lg-3 col-md-3 col-sm-12">
                     <img  class="w-100%" src="./img/Menu/030d5fea-3167-42a3-8296-e14aa27ac0ff.jfif" alt="">
                     <h3  class="fw-bold">special ramen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
+                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
                 </div>
                 <div class=" Menu col-lg-3 col-md-3 col-sm-12">
                     <img  class="w-100%" src="./img/Menu/844fd750-ad1d-4924-ae58-253cec385f44.jfif" alt="">
                     <h3  class="fw-bold">special ramen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
+                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
                 </div>
                 <div class=" Menu col-lg-3 col-md-3 col-sm-12">
                     <img  class="w-100%" src="./img/Menu/e165c63a-c567-462c-9c90-cf1dd31635f4.jfif" alt="">
                     <h3  class="fw-bold">special ramen</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
+                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
                 </div>
             </div>
         </div>
@@ -171,10 +174,10 @@
             <div class="row">
                 <div class=" align col-md-3">
                     <nav class="nav nav-pills flex-column">
-                        <button   data-bs-toggle="tab" data-bs-target="#Tradicional" class="fs-4 mb-2 tw-bold nav-link active ">Tradicional</button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Ramen" class=" fs-4 mb-2 tw-bold nav-link">Ramen</button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Gohan" class=" fs-4 mb-2 tw-bold nav-link">Gohan</button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Drinks" class=" fs-4 mb-2 tw-bold nav-link">Drinks</button>
+                        <button   data-bs-toggle="tab" data-bs-target="#Tradicional" class="fs-4 mb-2 tw-bold nav-link active "><h4> Tradicional</h4> </button>
+                        <button   data-bs-toggle="tab" data-bs-target="#Ramen" class=" fs-4 mb-2 tw-bold nav-link"><h4> Ramen  </h4></button>
+                        <button   data-bs-toggle="tab" data-bs-target="#Gohan" class=" fs-4 mb-2 tw-bold nav-link"><h4> Gohan </h4> </button>
+                        <button   data-bs-toggle="tab" data-bs-target="#Drinks" class=" fs-4 mb-2 tw-bold nav-link"><h4> Drinks </h4> </button>
                     </nav>
                 </div>
                 <div class=" mt-5 col-md-9">
@@ -185,21 +188,21 @@
                                     <img src="./img/Menu/Menu-trad/image 5.png" alt="">
                                     <div>
                                         <h4>Tradicional-Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-trad/image 6.png" alt="">
                                     <div>
                                         <h4>Tradicional-Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-trad/image 8.png" alt="">
                                     <div>
                                         <h4>Tradicional-Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -210,21 +213,21 @@
                                     <img src="./img/Menu/Menu-ramen/image 11.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-ramen/image 12.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-ramen/image 13.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -235,21 +238,21 @@
                                     <img src="./img/Menu/Menu-Gohan/image 14.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-Gohan/image 15.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-Gohan/image 16.png" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -260,21 +263,21 @@
                                     <img src="./img/Menu/Menu-drinks/colecao-de-tiros-cada-um-com-xarope-de-laranja-e-uma-cobertura-de-fruta_91128-3622.avif" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-drinks/selecao-de-varios-coqueteis-na-mesa_140725-2909.avif" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                                 <div class=" Menu description col-md-4">
                                     <img src="./img/Menu/Menu-drinks/vista-frontal-de-tacas-de-vinho-uvas-frescas-nozes-queijo-amarelo-na-placa-de-madeira-garrafa-virada-no-fundo-escuro_140725-144998.jpg" alt="">
                                     <div>
                                         <h4>Food</h4>
-                                        <p>Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
+                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
                                     </div>
                                 </div>
                             </div>
@@ -287,25 +290,26 @@
     <section id="Contacts">
         <div class="container">
             <div class="row">
-                <h2 class="text-center mb-5 " >Contacts</h2>
+                <h3 class="text-center mb-5 " >Contacts</h3>
                 <div class="col-lg-7 col-md-12 col-sm-12">
                     <form>
                         <div class="mb-3" >
                             <label class="form-label" for="#Name">Your Name</label>
-                            <input class="form-control" id="Name" type="text">
+                            <input  required class="form-control" id="Name" type="text">
                         </div>
                         <div class="mb-3" >
                             <label class="form-label" for="#E-mail">Your E-mail</label>
-                            <input class="form-control" id="E-mail" type="email">
+                            <input  required class="form-control" id="E-mail" type="email">
                         </div>
                         <div class="mb-3" >
                             <label class="form-label" for="#Phone">Your Phone </label>
-                            <input class="form-control" id="Phone" type="tell">
+                            <input  required class="form-control" id="Phone" type="tel">
                         </div>
                         <div class="mb-3" >
                             <label class="form-label" for="#Text">Send Your review</label>
                             <textarea class="form-control" id="Text"></textarea>
                         </div>
+                        <button class="btn btn-warning"><p>Enviar</p></button>
                     </form>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
@@ -340,4 +344,13 @@
     </footer>
 </body>
 <script src="./lib/bootstrap.bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="./Plugins/jquery.mask.min.js"></script>
+<script src="./Plugins/jquery.validate.min.js"></script>
+<script src="./Plugins/messages_pt_BR.js"></script>
+<script src="./Main.js"></script>
 </html>
