@@ -49,7 +49,6 @@ header h3{
 }
 .carousel-item img{
     width: 100%;
-    height: 700px;
     border-radius: 16px;
 }
 .carousel-item .carousel-caption{
@@ -85,7 +84,6 @@ header h3{
 }
 #restaurant img{
     width: 90%;
-    height: 250px;
     border-radius: 20px;
 }
 #restaurant img:hover{
@@ -109,6 +107,9 @@ header h3{
 }
 .Menu p{
     text-align: center;
+}
+#menu .nav-pills{
+    flex-direction: column;
 }
 .nav-pills, .tab-content{
     display: flex;
@@ -177,8 +178,8 @@ footer{
     height: 100px;
 }
 @media screen and (max-width:767px){
-    .carousel{
-        height: 250px;
+    #carousel{
+        height: 350px;
         margin-bottom: 550px;
     }
     #Events .col-lg-3 img{
@@ -190,8 +191,23 @@ footer{
     #Contacts{
         margin-top: 70px;
     }
-    #menu{
-        height: 270vh;
+    #menu {
+        padding-bottom: 150px;
+    }
+    #menu .nav-pills{
+        flex-direction: row;
+    }
+    #restaurant {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #restaurant .row{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+    #restaurant img{
+        width: 150px;
     }
 }
 @media screen and (min-width:769px){
