@@ -240,3 +240,51 @@ footer{
         margin-left: 25px;
     }
 }
+@keyframes Fadeleft {
+    from {
+        opacity: 0;
+        transition: -100w 0;
+    }
+
+    to {
+        opacity: 0;
+        transition: 0 0;
+    }
+    
+}
+@keyframes Fadeleft {
+    from {
+        opacity: 0;
+        transition: -100w 0;
+    }
+
+    to {
+        opacity: 0;
+        transition: 0 0;
+    }
+    
+}
+@keyframes FadeRight {
+    from {
+        opacity: 0;
+        transition: +100w 0;
+    }
+
+    to {
+        opacity: 0;
+        transition: 0 0;
+    }
+    
+}
+@keyframes FadeUP {
+    from {
+        opacity: 0;
+        transition: 0 -100vh;
+    }
+
+    to {
+        opacity: 0;
+        transition: 0 0;
+    }
+    
+}
