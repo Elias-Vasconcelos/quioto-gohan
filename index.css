@@ -210,24 +210,29 @@ footer{
         width: 150px;
     }
     #R1{
-        animation: Fadeleft ;
-        transition: ease-in-out .9;
+        animation: Fadeleft .9 ease-in-out;
+        animation-timeline: view() ;
+        animation-range: cover 0% cover 40% ;
     }
     #R2{
-        animation: FadeRight ;
-        transition: ease-in-out .9;
+        animation: FadeRight .9 ease-in-out ;
+        animation-timeline: view() ;
+        animation-range: cover 0% cover 40% ;
     }
     #Menu1{
-        animation: FadeUP ;
-        transition: ease-in-out .9;
+        animation: FadeUP .9 ease-in-out;
+        animation-timeline: view() ;
+        animation-range: cover 0% cover 40% ;
     }
     #Menu2{
-        animation: FadeUP ;
-        transition: ease-in-out .9;
+        animation: FadeUP .9 ease-in-out;
+        animation-timeline: view() ;
+        animation-range: cover 0% cover 40% ;
     }
     #Menu3{
-        animation: FadeUP ;
-        transition: ease-in-out .9;
+        animation: FadeUP .9 ease-in-out;
+        animation-timeline: view() ;
+        animation-range: cover 0% cover 40% ;
     }
 
 }
