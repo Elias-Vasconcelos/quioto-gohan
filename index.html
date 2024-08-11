@@ -1,397 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quioto-Gohan</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kavivanar&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./lib/bootstrap.min.css">
-</head>
-<body>
-    <header id="Cabecalho">    
-    <div class="navbar navbar-expand-lg fixed-top" >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kavivanar&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+  </head>
+  <body>
+    <header id="Cabecalho">
+      <div class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <h3 class="mt-2" >  <img src="./img/simbolo-da-bandeira-de-kyoto-japao.png" alt="simbolo-quioto"><span>Quioto</span>-Gohan.</h3>
-            <button type="button" class="navbar-toggler " data-bs-target="#Links" data-bs-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="caollapse navbar-colapse justfy-content-end" id="Links">
-                <ul class="nav nav-pills">
-                    <li class="nav-item">
-                        <a href="#carrousel" class="nav-link active text-light ">
-                            <img src="./img/Header-icons/Home.png" alt="">
-                            Home
-                        </a> 
-                    </li>
-                    <li class="nav-item">
-                        <a href="#about" class="nav-link text-light">
-                            <img src="./img/Header-icons/About.png" alt="">
-                            About
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Events" class="nav-link text-light">
-                            <img src="./img/Header-icons/Events.png" alt="">
-                            Events
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#menu" class="nav-link text-light">
-                            <img src="./img/Header-icons/Menu.png" alt="">
-                            Menu
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#Contacts" class="nav-link text-light">
-                            <img src="./img/Header-icons/fast-delivery.png" alt="">
-                            Contacts
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+          <h3 class="mt-2">
+            <img
+              src="./img/simbolo-da-bandeira-de-kyoto-japao.png"
+              alt="simbolo-quioto"
+            /><span>Quioto</span>-Gohan.
+          </h3>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-bs-target="#Links"
+            data-bs-toggle="collapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="caollapse navbar-colapse justfy-content-end" id="Links">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a href="#carrousel" class="nav-link active text-light">
+                  <img src="./img/Header-icons/Home.png" alt="" />
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link text-light">
+                  <img src="./img/Header-icons/About.png" alt="" />
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#Events" class="nav-link text-light">
+                  <img src="./img/Header-icons/Events.png" alt="" />
+                  Events
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#menu" class="nav-link text-light">
+                  <img src="./img/Header-icons/Menu.png" alt="" />
+                  Menu
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#Contacts" class="nav-link text-light">
+                  <img src="./img/Header-icons/fast-delivery.png" alt="" />
+                  Contacts
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </div>
+      </div>
     </header>
-<main data-bs-spy="scroll" data-bs-target="Cabecalho" data-bs-smooth-scroll="true" >
-    <section id="carrousel">
-        <div class="container  carousel slide">
-            <div class="carousel-inner">
-                <div  data-bs-interval="3000"  class="carousel-item">
-                    <img src="./img/Carousel/Desktop - 10.png" alt="">
-                    <div class="carousel-caption">
-                        <a href="#menu" class="btn btn-warning">
-                            deliver
-                        </a>
-                    </div>
-                </div>
-                <div  data-bs-interval="3000"  class="carousel-item">
-                    <img src="./img/Carousel/Desktop - 101.png" alt="">
-                    <div class="carousel-caption">
-                        <a href="#menu" class="btn btn-warning">
-                            deliver
-                        </a>
-                    </div>
-                </div>
-                <div  data-bs-interval="3000"  class="carousel-item active">
-                    <img src="./img/Carousel/Desktop - 110.png" alt="">
-                    <div class="carousel-caption">
-                        <a href="#menu" class="btn btn-warning">
-                            deliver
-                        </a>
-                    </div>
-                </div>
+    <main
+      data-bs-spy="scroll"
+      data-bs-target="Cabecalho"
+      data-bs-smooth-scroll="true"
+    >
+      <section id="carrousel">
+        <div
+          class="container carousel slide"
+          data-bs-ride="carousel"
+          id="carousel"
+        >
+          <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item">
+              <img src="./img/Carousel/Desktop - 10.png" alt="" />
+              <div class="carousel-caption">
+                <a href="#menu" class="btn btn-warning"> deliver </a>
+              </div>
             </div>
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            <div data-bs-interval="3000" class="carousel-item">
+              <img src="./img/Carousel/Desktop - 101.png" alt="" />
+              <div class="carousel-caption">
+                <a href="#menu" class="btn btn-warning"> deliver </a>
+              </div>
             </div>
+            <div data-bs-interval="3000" class="carousel-item active">
+              <img src="./img/Carousel/Desktop - 110.png" alt="" />
+              <div class="carousel-caption">
+                <a href="#menu" class="btn btn-warning"> deliver </a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              class="active"
+              data-bs-slide-to="0"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carousel"
+              data-bs-slide-to="2"
+            ></button>
+          </div>
         </div>
-    </section>
-    <section id="about" data-bs-smooth-scroll="true" > 
+      </section>
+      <section id="about" data-bs-smooth-scroll="true">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 md-12 col-sm-12">
-                    <img id="about-img" src="./img/close-up-de-um-pessoa-mao-levando-comida-tailandesa-com-chopsticks-contra-experiencia-preta.jpg" alt="">
-                </div>
-                <div class="  mt-5 col-lg-8 col-md-12 col-sm-12">
-                    <h3 class="text-center" >
-                        about
-                        <img src="./img/title icons/About.png" alt="">
-                    </h3>
-                    <p class="text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum pariatur alias ad cum assumenda doloribus illum magni reprehenderit quod eaque, veniam totam voluptates deleniti, omnis vel facere voluptatem excepturi nam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem magnam accusantium, rerum soluta in est nostrum beatae eveniet laborum quisquam? Nisi sapiente odit natus repellat itaque ipsa, ex eos. Corrupti?   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nulla culpa, aspernatur error reprehenderit architecto ad delectus veniam. Consequuntur praesentium mollitia dolorum odit eius soluta ipsa obcaecati facere exercitationem quis.</p>
-                </div>
+          <div class="row">
+            <div class="col-lg-4 md-12 col-sm-12">
+              <img
+                id="about-img"
+                src="./img/close-up-de-um-pessoa-mao-levando-comida-tailandesa-com-chopsticks-contra-experiencia-preta.jpg"
+                alt=""
+              />
             </div>
+            <div class="mt-5 col-lg-8 col-md-12 col-sm-12">
+              <h3 class="text-center">
+                about
+                <img src="./img/title icons/About.png" alt="" />
+              </h3>
+              <p class="text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+                pariatur alias ad cum assumenda doloribus illum magni
+                reprehenderit quod eaque, veniam totam voluptates deleniti,
+                omnis vel facere voluptatem excepturi nam! Lorem ipsum dolor sit
+                amet consectetur adipisicing elit. Voluptatem magnam
+                accusantium, rerum soluta in est nostrum beatae eveniet laborum
+                quisquam? Nisi sapiente odit natus repellat itaque ipsa, ex eos.
+                Corrupti? Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Qui nulla culpa, aspernatur error reprehenderit architecto
+                ad delectus veniam. Consequuntur praesentium mollitia dolorum
+                odit eius soluta ipsa obcaecati facere exercitationem quis.
+              </p>
             </div>
-    </section>
-    <section id="Events" data-bs-smooth-scroll="true" >
+          </div>
+        </div>
+      </section>
+      <section id="Events" data-bs-smooth-scroll="true">
         <div class="container">
-            <div id="R2" class="container-fluid restaurant" >
-                <div class="row">
-                    <div class=" mt-3  col-sm-4 col-md-4">
-                        <img src="./img/About/43f11c58-89c0-4ea3-901f-eda843d02c6d.jfif" alt="">
-                    </div>
-                    <div class=" mt-3  col-sm-4 col-md-4">
-                        <img src="./img/About/c97e1eb6-e44d-4d6e-9ee7-4bc5d81e2ac1.jfif" alt="">
-                    </div>
-                    <div class=" mt-3  col-sm-4 col-md-4">
-                        <img src="./img/About/f1b9dc72-de46-4cb3-972f-00072af474e6.jfif" alt="">
-                    </div>
-                </div>
-            </div>
-    <div class="row">
-                <h3 class="text-center mb-5 mt-4 ">
-                    events
-                    <img src="./img/title icons/Events.png" alt="">
-                </h3>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img  class="align" src="./img/Events/Rectangle 68.png" alt="">
-                    <div class="caption">
-                        <h4 class=" mt-4 text-center" >tradicional food</h4>
-                        <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="./img/Events/Rectangle 69.png" alt="">
-                    <div class="caption">
-                        <h4 class=" mt-4 text-center" >Yakiniku</h4>
-                        <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
-                    </div>
-                </div>
-                <div class=" ml-5 col-lg-3 col-md-6 col-sm-12">
-                    <img src="./img/Events/Rectangle 70.png" alt="">
-                    <div class="caption">
-                        <h4 class=" mt-4 text-center" >Teppanyaki japanese</h4>
-                        <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <img src="./img/Events/Rectangle 71.png" alt="">
-                    <div class="caption">
-                        <h4 class=" mt-4 text-center" >space for events</h4>
-                        <p class="text-center" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id veritatis iste laboriosam quae mollitia, ducimus qui, unde officia tempora tempore dignissimos voluptate praesentium ipsum accusamus pariatur, commodi dolorum deserunt nulla.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="R2" class="container-fluid restaurant" >
+          <div id="R2" class="container-fluid restaurant">
             <div class="row">
-                <div class=" mt-3  col-sm-4 col-md-4">
-                    <img src="./img/Events/restaurant/image 10.png" alt="">
-                </div>
-                <div class=" mt-3  col-sm-4 col-md-4">
-                    <img src="./img/Events/restaurant/image 7.png" alt="">
-                </div>
-                <div class=" mt-3  col-sm-4 col-md-4">
-                    <img src="./img/Events/restaurant/image 9.png" alt="">
-                </div>
+              <div class="mt-3 col-sm-4 col-md-4">
+                <img
+                  src="./img/About/43f11c58-89c0-4ea3-901f-eda843d02c6d.jfif"
+                  alt=""
+                />
+              </div>
+              <div class="mt-3 col-sm-4 col-md-4">
+                <img
+                  src="./img/About/c97e1eb6-e44d-4d6e-9ee7-4bc5d81e2ac1.jfif"
+                  alt=""
+                />
+              </div>
+              <div class="mt-3 col-sm-4 col-md-4">
+                <img
+                  src="./img/About/f1b9dc72-de46-4cb3-972f-00072af474e6.jfif"
+                  alt=""
+                />
+              </div>
             </div>
+          </div>
+          <div class="row">
+            <h3 class="text-center mb-5 mt-4">
+              events
+              <img src="./img/title icons/Events.png" alt="" />
+            </h3>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img class="align" src="./img/Events/Rectangle 68.png" alt="" />
+              <div class="caption">
+                <h4 class="mt-4 text-center">tradicional food</h4>
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                  veritatis iste laboriosam quae mollitia, ducimus qui, unde
+                  officia tempora tempore dignissimos voluptate praesentium
+                  ipsum accusamus pariatur, commodi dolorum deserunt nulla.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="./img/Events/Rectangle 69.png" alt="" />
+              <div class="caption">
+                <h4 class="mt-4 text-center">Yakiniku</h4>
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                  veritatis iste laboriosam quae mollitia, ducimus qui, unde
+                  officia tempora tempore dignissimos voluptate praesentium
+                  ipsum accusamus pariatur, commodi dolorum deserunt nulla.
+                </p>
+              </div>
+            </div>
+            <div class="ml-5 col-lg-3 col-md-6 col-sm-12">
+              <img src="./img/Events/Rectangle 70.png" alt="" />
+              <div class="caption">
+                <h4 class="mt-4 text-center">Teppanyaki japanese</h4>
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                  veritatis iste laboriosam quae mollitia, ducimus qui, unde
+                  officia tempora tempore dignissimos voluptate praesentium
+                  ipsum accusamus pariatur, commodi dolorum deserunt nulla.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+              <img src="./img/Events/Rectangle 71.png" alt="" />
+              <div class="caption">
+                <h4 class="mt-4 text-center">space for events</h4>
+                <p class="text-center">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
+                  veritatis iste laboriosam quae mollitia, ducimus qui, unde
+                  officia tempora tempore dignissimos voluptate praesentium
+                  ipsum accusamus pariatur, commodi dolorum deserunt nulla.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <section id="menu" data-bs-smooth-scroll="true" >
+        <div id="R2" class="container-fluid restaurant">
+          <div class="row">
+            <div class="mt-3 col-sm-4 col-md-4">
+              <img src="./img/Events/restaurant/image 10.png" alt="" />
+            </div>
+            <div class="mt-3 col-sm-4 col-md-4">
+              <img src="./img/Events/restaurant/image 7.png" alt="" />
+            </div>
+            <div class="mt-3 col-sm-4 col-md-4">
+              <img src="./img/Events/restaurant/image 9.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu" data-bs-smooth-scroll="true">
         <div class="container">
-            <div class=" centro row">
-                <h3 class="text-center text-light mt-5 mb-5 ">
-                    Menu
-                    <img src="./img/title icons/Menu.png" alt="">
-                </h3>
-                <div id="Menu1" class=" Menu col-lg-3 col-md-3 col-sm-12">
-                    <img  class="w-100%" src="./img/Menu/030d5fea-3167-42a3-8296-e14aa27ac0ff.jfif" alt="">
-                    <h3  class="fw-bold">special ramen</h3>
-                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
-                </div>
-                <div id="Menu2" class=" Menu col-lg-3 col-md-3 col-sm-12">
-                    <img  class="w-100%" src="./img/Menu/844fd750-ad1d-4924-ae58-253cec385f44.jfif" alt="">
-                    <h3  class="fw-bold">special ramen</h3>
-                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
-                </div>
-                <div id="Menu3" class=" Menu col-lg-3 col-md-3 col-sm-12">
-                    <img  class="w-100%" src="./img/Menu/e165c63a-c567-462c-9c90-cf1dd31635f4.jfif" alt="">
-                    <h3  class="fw-bold">special ramen</h3>
-                    <p class="text-light" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem voluptas, repellendus voluptatibus omnis quam amet atque sunt? Aperiam dicta laudantium incidunt nihil molestias, recusandae modi aspernatur quaerat facilis id.</p>
-                </div>
+          <div class="centro row">
+            <h3 class="text-center text-light mt-5 mb-5">
+              Menu
+              <img src="./img/title icons/Menu.png" alt="" />
+            </h3>
+            <div id="Menu1" class="Menu col-lg-3 col-md-3 col-sm-12">
+              <img
+                class="w-100%"
+                src="./img/Menu/030d5fea-3167-42a3-8296-e14aa27ac0ff.jfif"
+                alt=""
+              />
+              <h3 class="fw-bold">special ramen</h3>
+              <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                quidem voluptas, repellendus voluptatibus omnis quam amet atque
+                sunt? Aperiam dicta laudantium incidunt nihil molestias,
+                recusandae modi aspernatur quaerat facilis id.
+              </p>
             </div>
+            <div id="Menu2" class="Menu col-lg-3 col-md-3 col-sm-12">
+              <img
+                class="w-100%"
+                src="./img/Menu/844fd750-ad1d-4924-ae58-253cec385f44.jfif"
+                alt=""
+              />
+              <h3 class="fw-bold">special ramen</h3>
+              <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                quidem voluptas, repellendus voluptatibus omnis quam amet atque
+                sunt? Aperiam dicta laudantium incidunt nihil molestias,
+                recusandae modi aspernatur quaerat facilis id.
+              </p>
+            </div>
+            <div id="Menu3" class="Menu col-lg-3 col-md-3 col-sm-12">
+              <img
+                class="w-100%"
+                src="./img/Menu/e165c63a-c567-462c-9c90-cf1dd31635f4.jfif"
+                alt=""
+              />
+              <h3 class="fw-bold">special ramen</h3>
+              <p class="text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+                quidem voluptas, repellendus voluptatibus omnis quam amet atque
+                sunt? Aperiam dicta laudantium incidunt nihil molestias,
+                recusandae modi aspernatur quaerat facilis id.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class=" B-menu container">
-            <div class="row">
-                <div class=" align col-md-3">
-                    <nav class="nav nav-pills">
-                        <button   data-bs-toggle="tab" data-bs-target="#Tradicional" class="fs-4 mb-2 tw-bold nav-link active ">
-                            <img src="./img/Menu/Icons/Tradicional.png" alt="">
-                            <h4> Tradicional</h4> 
-                        </button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Ramen" class=" fs-4 mb-2 tw-bold nav-link">
-                            <img src="./img/Menu/Icons/Ramen.png" alt="">
-                            <h4> Ramen  </h4> 
-                        </button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Gohan" class=" fs-4 mb-2 tw-bold nav-link">
-                            <img src="./img/Menu/Icons/Gohan.png" alt="">
-                            <h4> Gohan </h4>                         
-                        </button>
-                        <button   data-bs-toggle="tab" data-bs-target="#Drinks" class=" fs-4 mb-2 tw-bold nav-link">
-                            <img src="./img/Menu/Icons/Drinks.png" alt="">
-                            <h4> Drinks </h4>                       
-                        </button>
-                    </nav>
-                </div>
-                <div class=" mt-5 col-md-9">
-                    <div class="tab-content">
-                        <div id="Tradicional" class="tab-pane active ">
-                            <div class="row flex-column">
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-trad/image 5.png" alt="">
-                                    <div>
-                                        <h4>Tradicional-Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-trad/image 6.png" alt="">
-                                    <div>
-                                        <h4>Tradicional-Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-trad/image 8.png" alt="">
-                                    <div>
-                                        <h4>Tradicional-Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="Ramen" class="tab-pane">
-                            <div class="row flex-column">
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-ramen/image 11.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-ramen/image 12.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-ramen/image 13.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="Gohan" class="tab-pane">
-                            <div class="row flex-column">
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-Gohan/image 14.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-Gohan/image 15.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-Gohan/image 16.png" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="Drinks" class="tab-pane">
-                            <div class="row flex-column">
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-drinks/colecao-de-tiros-cada-um-com-xarope-de-laranja-e-uma-cobertura-de-fruta_91128-3622.avif" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-drinks/selecao-de-varios-coqueteis-na-mesa_140725-2909.avif" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                                <div class=" Menu description col-md-4">
-                                    <img src="./img/Menu/Menu-drinks/vista-frontal-de-tacas-de-vinho-uvas-frescas-nozes-queijo-amarelo-na-placa-de-madeira-garrafa-virada-no-fundo-escuro_140725-144998.jpg" alt="">
-                                    <div>
-                                        <h4>Food</h4>
-                                        <p class="text-light" >Lorem quasi, illum recusandae accusantium ratione vero soluta dolorum neque architecto quae.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <div class="B-menu container">
+          <div class="row">
+            <div class="align col-md-3">
+              <nav class="nav nav-pills">
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#Tradicional"
+                  class="fs-4 mb-2 tw-bold nav-link active"
+                >
+                  <img src="./img/Menu/Icons/Tradicional.png" alt="" />
+                  <h4>Tradicional</h4>
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#Ramen"
+                  class="fs-4 mb-2 tw-bold nav-link"
+                >
+                  <img src="./img/Menu/Icons/Ramen.png" alt="" />
+                  <h4>Ramen</h4>
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#Gohan"
+                  class="fs-4 mb-2 tw-bold nav-link"
+                >
+                  <img src="./img/Menu/Icons/Gohan.png" alt="" />
+                  <h4>Gohan</h4>
+                </button>
+                <button
+                  data-bs-toggle="tab"
+                  data-bs-target="#Drinks"
+                  class="fs-4 mb-2 tw-bold nav-link"
+                >
+                  <img src="./img/Menu/Icons/Drinks.png" alt="" />
+                  <h4>Drinks</h4>
+                </button>
+              </nav>
+            </div>
+            <div class="mt-5 col-md-9">
+              <div class="tab-content">
+                <div id="Tradicional" class="tab-pane active">
+                  <div class="row flex-column">
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-trad/image 5.png" alt="" />
+                      <div>
+                        <h4>Tradicional-Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
                     </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-trad/image 6.png" alt="" />
+                      <div>
+                        <h4>Tradicional-Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-trad/image 8.png" alt="" />
+                      <div>
+                        <h4>Tradicional-Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div id="Ramen" class="tab-pane">
+                  <div class="row flex-column">
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-ramen/image 11.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-ramen/image 12.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-ramen/image 13.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="Gohan" class="tab-pane">
+                  <div class="row flex-column">
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-Gohan/image 14.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-Gohan/image 15.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img src="./img/Menu/Menu-Gohan/image 16.png" alt="" />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div id="Drinks" class="tab-pane">
+                  <div class="row flex-column">
+                    <div class="Menu description col-md-4">
+                      <img
+                        src="./img/Menu/Menu-drinks/colecao-de-tiros-cada-um-com-xarope-de-laranja-e-uma-cobertura-de-fruta_91128-3622.avif"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img
+                        src="./img/Menu/Menu-drinks/selecao-de-varios-coqueteis-na-mesa_140725-2909.avif"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="Menu description col-md-4">
+                      <img
+                        src="./img/Menu/Menu-drinks/vista-frontal-de-tacas-de-vinho-uvas-frescas-nozes-queijo-amarelo-na-placa-de-madeira-garrafa-virada-no-fundo-escuro_140725-144998.jpg"
+                        alt=""
+                      />
+                      <div>
+                        <h4>Food</h4>
+                        <p class="text-light">
+                          Lorem quasi, illum recusandae accusantium ratione vero
+                          soluta dolorum neque architecto quae.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </section>
-    <section id="Contacts">
+      </section>
+      <section id="Contacts">
         <div class="container">
-            <div class="row">
-                <h3 class="text-center mb-5 " >
-                    Contacts
-                    <img src="./img/title icons/Contacts.png" alt="">
-                </h3>
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <form>
-                        <div class="mb-3" >
-                            <label class="form-label" for="#Name">Your Name</label>
-                            <input  required class="form-control" id="Name" type="text">
-                        </div>
-                        <div class="mb-3" >
-                            <label class="form-label" for="#E-mail">Your E-mail</label>
-                            <input  required class="form-control" id="E-mail" type="email">
-                        </div>
-                        <div class="mb-3" >
-                            <label class="form-label" for="#Phone">Your Phone </label>
-                            <input  required class="form-control" id="Phone" type="tel">
-                        </div>
-                        <div class="mb-3" >
-                            <label class="form-label" for="#Text">Send Your review</label>
-                            <textarea class="form-control" id="Text"></textarea>
-                        </div>
-                        <button class="btn btn-warning"><p>Enviar</p></button>
-                    </form>
+          <div class="row">
+            <h3 class="text-center mb-5">
+              Contacts
+              <img src="./img/title icons/Contacts.png" alt="" />
+            </h3>
+            <div class="col-lg-7 col-md-12 col-sm-12">
+              <form>
+                <div class="mb-3">
+                  <label class="form-label" for="#Name">Your Name</label>
+                  <input required class="form-control" id="Name" type="text" />
                 </div>
-                <div class="col-lg-5 col-md-12 col-sm-12">
-                    <div class="row">
-                        <div><h4>Social Midias</h4></div>
-                    </div>
-                    <ul>
-                        <li>
-                            <a target="_blank" href="https://github.com/Elias-Vasconcelos"><img src="./img/Contacts/Github.png" alt=""></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.instagram.com/eueliasvasconcelos/"><img src="./img/Contacts/instagran.png" alt=""></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="https://www.linkedin.com/in/elias-ferreira-4404b9224/"><img src="./img/Contacts/Linkedin.png" alt=""></a>
-                        </li>
-                    </ul>
-                    <div class="row">
-                        <h4>address</h4>
-                        <p>fictional street nowhere, no° 999</p>
-                    </div>
+                <div class="mb-3">
+                  <label class="form-label" for="#E-mail">Your E-mail</label>
+                  <input
+                    required
+                    class="form-control"
+                    id="E-mail"
+                    type="email"
+                  />
                 </div>
+                <div class="mb-3">
+                  <label class="form-label" for="#Phone">Your Phone </label>
+                  <input required class="form-control" id="Phone" type="tel" />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="#Text">Send Your review</label>
+                  <textarea class="form-control" id="Text"></textarea>
+                </div>
+                <button class="btn btn-warning"><p>Enviar</p></button>
+              </form>
             </div>
+            <div class="col-lg-5 col-md-12 col-sm-12">
+              <div class="row">
+                <div><h4>Social Midias</h4></div>
+              </div>
+              <ul>
+                <li>
+                  <a target="_blank" href="https://github.com/Elias-Vasconcelos"
+                    ><img src="./img/Contacts/Github.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/eueliasvasconcelos/"
+                    ><img src="./img/Contacts/instagran.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/elias-ferreira-4404b9224/"
+                    ><img src="./img/Contacts/Linkedin.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <div class="row">
+                <h4>address</h4>
+                <p>fictional street nowhere, no° 999</p>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-</main>
+      </section>
+    </main>
     <footer class="bg-dark p-2 text-center">
-        <div class="container">
-            <p class="text-white">
-                Todos os direitos reservados a @Elias Ferreira
-            </p>
-        </div>
+      <div class="container">
+        <p class="text-white">Todos os direitos reservados a @Elias Ferreira</p>
+      </div>
     </footer>
-</body>
-<script src="./lib/bootstrap.bundle.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script src="./Plugins/jquery.mask.min.js"></script>
-<script src="./Plugins/jquery.validate.min.js"></script>
-<script src="./Plugins/messages_pt_BR.js"></script>
-<script src="./Main.js"></script>
+  </body>
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+  ></script>
+  <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+  ></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script
+    type="text/javascript"
+    src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+  <script src="./Plugins/jquery.mask.min.js"></script>
+  <script src="./Plugins/jquery.validate.min.js"></script>
+  <script src="./Plugins/messages_pt_BR.js"></script>
+  <script src="./Main.js"></script>
 </html>
